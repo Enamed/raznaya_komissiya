@@ -4,10 +4,8 @@ fun main() {
     println("1.VK Pay\n2.Mastercard/Maestro\n3.Visa/Мир")
     val card = readLine()
     val card1 = card?.toInt()
-    if (card1 == 2)
-        println("Введите адресата(пишем что хотим)")
+    println("Введите адресата(пишем что хотим)")
     val adresat = readLine()
-
     println("Введите сумму предыдущих переводов за этот месяц")
     val lastTrasaction = readLine()
     println("Введите сумму перевода")
