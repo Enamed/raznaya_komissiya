@@ -3,7 +3,6 @@ fun main() {
     println("Для перевода денег, введите используемую банковскую карту ")
     println("1.VK Pay\n2.Mastercard/Maestro\n3.Visa/Мир")
     val card = readLine()
-    val card1 = card?.toInt()
     println("Введите адресата(пишем что хотим)")
     val adresat = readLine()
     println("Введите сумму предыдущих переводов за этот месяц")
